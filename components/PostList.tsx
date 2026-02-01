@@ -66,7 +66,7 @@ export function PostList({ posts, tags }: PostListProps) {
         <div className="max-w-3xl mx-auto px-6">
           <Link href="/" className="inline-block">
             <h1 className="text-4xl font-bold text-zinc-900 dark:text-zinc-100 tracking-tight">
-              Retap
+              Retap.ai
             </h1>
           </Link>
           <p className="mt-3 text-lg text-zinc-600 dark:text-zinc-400">
@@ -103,7 +103,7 @@ export function PostList({ posts, tags }: PostListProps) {
 
       <footer className="border-t border-zinc-200 dark:border-zinc-800 py-8 mt-16">
         <div className="max-w-3xl mx-auto px-6 text-center text-sm text-zinc-500 dark:text-zinc-500">
-          <p>© {new Date().getFullYear()} Retap. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Retap.ai. All rights reserved.</p>
         </div>
       </footer>
     </div>

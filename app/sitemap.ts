@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { getAllPosts, getAllPostSlugs } from '@/lib/posts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://retap.com'; // Update this with your actual domain
+  const baseUrl = 'https://retap.ai'; // Update this with your actual domain
   const posts = getAllPosts();
 
   const postUrls: MetadataRoute.Sitemap = posts.map((post) => ({

@@ -14,20 +14,20 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Retap - A Minimal Writing Space',
-    template: '%s | Retap',
+    default: 'Retap.ai - A Minimal Writing Space',
+    template: '%s | Retap.ai',
   },
   description: 'A minimal, static personal publishing platform for writers and creators.',
   openGraph: {
-    title: 'Retap',
+    title: 'Retap.ai',
     description: 'A minimal, static personal publishing platform for writers and creators.',
     type: 'website',
-    url: 'https://retap.com',
-    siteName: 'Retap',
+    url: 'https://retap.ai',
+    siteName: 'Retap.ai',
   },
   twitter: {
     card: 'summary',
-    title: 'Retap',
+    title: 'Retap.ai',
     description: 'A minimal, static personal publishing platform for writers and creators.',
   },
 };

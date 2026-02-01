@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/_next/'],
       },
     ],
-    sitemap: 'https://retap.com/sitemap.xml', // Update with your actual domain
+    sitemap: 'https://retap.ai/sitemap.xml', // Update with your actual domain
   };
 }
